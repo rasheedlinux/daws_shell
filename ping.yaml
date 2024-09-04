@@ -1,5 +1,5 @@
 - name: ping the host check connection
- host: web
+ hosts: web
  tasks:
  - name: used ping module
    ansible.builtin.png:
